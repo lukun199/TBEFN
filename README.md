@@ -1,4 +1,4 @@
-# TBEFM
+# TBEFN
 
 Preprint of our papar:  
 TBEFN: A Two-branch Exposure-fusion Network for Low-light Image Enhancement  
