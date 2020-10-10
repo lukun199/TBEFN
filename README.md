@@ -11,7 +11,7 @@ tensorflow==1.13.1
 opencv-python
 ```
 
-**Note that `tf.contrib.slim` module is used in this code, thus it could only run under tf 1.x. But we do not necessarily need to implement conv with `silm`, so with slight modification, it could run under tf 2.x **
+**Note that `tf.contrib.slim` module is used in this code, thus it could only run under tf 1.x. But we do not necessarily need to implement conv with `slim`, so with slight modification, it could run under tf 2.x **
 
 ### get started
 1. file structure
