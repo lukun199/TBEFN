@@ -1,4 +1,4 @@
-#TBEFN: A Two-branch Exposure-fusion Network for Low-light Image Enhancement
+# TBEFN: A Two-branch Exposure-fusion Network for Low-light Image Enhancement
 
 
 Our paper was submitted to IEEE TMM on Dec. 2019, and is still under peer review. 
@@ -28,7 +28,7 @@ opencv-python
 ```
 cd your_path
 python predict_TBEFN.py
-``
+```
 ### results
 
 We provide 6 images in this demo, after running this code, you will get results as follows. (we have cropped the result so that you can have a better comparison.)
@@ -39,11 +39,14 @@ We provide 6 images in this demo, after running this code, you will get results 
 0. comparison with som other sota work (DEC. 2019)
 ![demo_img](demo_img/giraffe.jpg)
 
+
 1. PSNR/SSIM/NIQE on paired dataset
 ![demo_img](demo_img/I.png)
 
+
 2. NIQE on six commonly used dataset
 ![demo_img](demo_img/II.png)
+
 
 3. Efficiency
 ![demo_img](demo_img/VII.png)
