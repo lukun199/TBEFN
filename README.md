@@ -41,13 +41,16 @@ We provide 6 images in this demo, after running this code, you will get results 
 
 
 1. PSNR/SSIM/NIQE on paired dataset
+
 ![demo_img](demo_img/I.png)
 
 
 2. NIQE on six commonly used dataset
+
 ![demo_img](demo_img/II.png)
 
 
 3. Efficiency
+
 ![demo_img](demo_img/VII.png)
 
