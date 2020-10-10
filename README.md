@@ -36,7 +36,7 @@ We provide 6 images in this demo, after running this code, you will get results 
 ![demo_img](demo_img/demo_img.jpg)
 
 ### further comparison
-0. comparison with som other sota work (DEC. 2019)
+0. comparison with some other sota work (DEC. 2019)
 ![demo_img](demo_img/giraffe.jpg)
 
 
