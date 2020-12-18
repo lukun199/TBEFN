@@ -1,7 +1,10 @@
 # TBEFN: A Two-branch Exposure-fusion Network for Low-light Image Enhancement
 
 
-Codes for TMM19 paper "TBEFN: A Two-branch Exposure-fusion Network for Low-light Image Enhancement".
+Codes for TMM20 paper ["TBEFN: A Two-branch Exposure-fusion Network for Low-light Image Enhancement"](https://ieeexplore.ieee.org/document/9261119).
+
+![Structure](demo_img/Structure.png)
+
 
 ### requirements
 ```
@@ -34,7 +37,9 @@ We provide 6 images in this demo, after running this code, you will get results 
 ![demo_img](demo_img/demo_img.jpg)
 
 ### further comparison
-0. comparison with some other sota work (DEC. 2019)
+
+0. comparison with some other sota work (DEC.19)
+
 ![demo_img](demo_img/giraffe.jpg)
 
 
