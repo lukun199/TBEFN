@@ -1,9 +1,7 @@
 # TBEFN: A Two-branch Exposure-fusion Network for Low-light Image Enhancement
 
 
-Our paper was submitted to IEEE TMM on Dec. 2019, and is still under peer review. 
-
-Now, we have decided to release the test code and a demo on this project website. **Note that this release is used for research only with explicit citation. If you want to use this tool, please let we know - [hzmylys@gmail.com]**
+Codes for TMM19 paper "TBEFN: A Two-branch Exposure-fusion Network for Low-light Image Enhancement".
 
 ### requirements
 ```
@@ -53,4 +51,18 @@ We provide 6 images in this demo, after running this code, you will get results 
 3. Efficiency
 
 ![demo_img](demo_img/VII.png)
+
+### citation
+
+```
+@ARTICLE{9261119,
+  author={K. {Lu} and L. {Zhang}},
+  journal={IEEE Transactions on Multimedia}, 
+  title={TBEFN: A two-branch exposure-fusion network for low-light image enhancement}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMM.2020.3037526}}
+```
 
