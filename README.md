@@ -6,13 +6,18 @@ Codes for TMM20 paper ["TBEFN: A Two-branch Exposure-fusion Network for Low-ligh
 ![Structure](demo_img/Structure.png)
 
 
-### requirements
+### requirements TensorFlow 1.x
 ```
 tensorflow==1.13.1
 opencv-python
 ```
 
-**Note that `tf.contrib.slim` module is used in this code, thus it could only run under tf 1.x. But we do not necessarily need to implement conv with `slim`, so with slight modification, it could run under tf 2.x **
+### requirements TensorFlow 2.x
+```
+tensorflow==2.6.0
+tf-slim==1.1.0
+opencv-python
+```
 
 ### get started
 1. file structure
@@ -24,12 +29,19 @@ opencv-python
 |./ckpt|model weights (already provided, ~2MB)|
 |./demo_img|used for demo|
 
-2. how to run the code
-
+2. how to run the code  
+TensorFlow 1.x:
 ```
 cd your_path
 python predict_TBEFN.py
+```  
+TensorFlow 2.x:
 ```
+cd your_path
+python predict_TBEFN_tf2.py
+```
+### Colab
+A Colab notebook which allows upload of your own photos and make predictions over them is available in [this repository](https://github.com/virtualramblas/python-notebooks-repo/tree/main/Colab/TBEFN).  
 ### results
 
 We provide 6 images in this demo, after running this code, you will get results as follows. (we have cropped the result so that you can have a better comparison.)
