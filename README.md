@@ -42,6 +42,10 @@ python predict_TBEFN_tf2.py
 ```
 ### Colab
 A Colab notebook which allows upload of your own photos and make predictions over them is available in [this repository](https://github.com/virtualramblas/python-notebooks-repo/tree/main/Colab/TBEFN).  
+
+### .pb file extension
+See `./extension`. First run `TBEFN_ckpt2pb.py`, and then `TBEFN_RunFromPb.py`.
+
 ### results
 
 We provide 6 images in this demo, after running this code, you will get results as follows. (we have cropped the result so that you can have a better comparison.)
@@ -72,14 +76,14 @@ We provide 6 images in this demo, after running this code, you will get results 
 ### citation
 
 ```
-@ARTICLE{9261119,
-  author={K. {Lu} and L. {Zhang}},
+@ARTICLE{lu2020tbefn,
+  author={Lu, Kun and Zhang, Lihong},
   journal={IEEE Transactions on Multimedia}, 
-  title={TBEFN: A two-branch exposure-fusion network for low-light image enhancement}, 
-  year={2020},
-  volume={},
+  title={TBEFN: A Two-Branch Exposure-Fusion Network for Low-Light Image Enhancement}, 
+  year={2021},
+  volume={23},
   number={},
-  pages={1-1},
+  pages={4093-4105},
   doi={10.1109/TMM.2020.3037526}}
 ```
 
