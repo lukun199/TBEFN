@@ -46,6 +46,9 @@ A Colab notebook which allows upload of your own photos and make predictions ove
 ### .pb file extension
 See `./extension`. First run `TBEFN_ckpt2pb.py`, and then `TBEFN_RunFromPb.py`.
 
+### other extensions
+We thank [PINTO0309](https://github.com/PINTO0309/PINTO_model_zoo)'s warm work that converted TBEFN into many other formats and for other platforms, including saved_model, tflite, onnx, coreml, tfjs, tftrt, openvino, myriad blob, edgetpu etc.
+
 ### results
 
 We provide 6 images in this demo, after running this code, you will get results as follows. (we have cropped the result so that you can have a better comparison.)
@@ -72,6 +75,10 @@ We provide 6 images in this demo, after running this code, you will get results 
 3. Efficiency
 
 ![demo_img](demo_img/VII.png)
+
+### license
+
+BSD 3-Clause
 
 ### citation
 
